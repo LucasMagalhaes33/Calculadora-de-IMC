@@ -1,0 +1,105 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 249
+  Height = 240
+  Top = 127
+  Width = 320
+  Caption = 'frmPrincipal'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 64
+    Height = 17
+    Top = 72
+    Width = 68
+    Caption = 'Sua Altura:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 73
+    Height = 17
+    Top = 104
+    Width = 59
+    Caption = 'Seu Peso:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 73
+    Height = 17
+    Top = 136
+    Width = 59
+    Caption = 'Seu Sexo:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object edtAltura: TEdit
+    Left = 152
+    Height = 23
+    Top = 66
+    Width = 80
+    OnEnter = edtAlturaEnter
+    TabOrder = 0
+  end
+  object edtPeso: TEdit
+    Left = 152
+    Height = 23
+    Top = 98
+    Width = 80
+    TabOrder = 1
+  end
+  object btnResultado: TButton
+    Left = 64
+    Height = 25
+    Top = 192
+    Width = 75
+    Caption = 'Resultado'
+    OnClick = btnResultadoClick
+    TabOrder = 3
+  end
+  object btnRequisitos: TButton
+    Left = 157
+    Height = 25
+    Top = 192
+    Width = 76
+    Caption = 'Ver requisitos'
+    OnClick = btnRequisitosClick
+    TabOrder = 4
+  end
+  object cbSexo: TComboBox
+    Left = 152
+    Height = 23
+    Top = 128
+    Width = 81
+    ItemHeight = 15
+    Items.Strings = (
+      'M'
+      'F'
+    )
+    Style = csDropDownList
+    TabOrder = 2
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 320
+    Align = alTop
+    Caption = 'Calculadora de IMC'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Timer1: TTimer
+    Left = 270
+    Top = 112
+  end
+end

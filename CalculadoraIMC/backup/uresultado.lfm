@@ -1,0 +1,111 @@
+object frmResultado: TfrmResultado
+  Left = 249
+  Height = 240
+  Top = 127
+  Width = 320
+  Caption = 'Seu indíce corporal é:'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnShow = FormShow
+  LCLVersion = '2.0.12.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 320
+    Align = alTop
+    Caption = 'Seu indíce de massa corporal é'
+    Font.Height = -16
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 17
+    Top = 64
+    Width = 46
+    Caption = 'Altura.:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 40
+    Height = 17
+    Top = 96
+    Width = 45
+    Caption = 'Peso...:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 40
+    Height = 17
+    Top = 128
+    Width = 45
+    Caption = 'Sexo...:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 40
+    Height = 17
+    Top = 160
+    Width = 44
+    Caption = 'IMC....:'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblIMC: TLabel
+    Left = 160
+    Height = 17
+    Top = 160
+    Width = 40
+    Caption = 'lblIMC'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblSexo: TLabel
+    Left = 160
+    Height = 17
+    Top = 128
+    Width = 45
+    Caption = 'lblSexo'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblPeso: TLabel
+    Left = 160
+    Height = 17
+    Top = 96
+    Width = 45
+    Caption = 'lblPeso'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblAltura: TLabel
+    Left = 160
+    Height = 17
+    Top = 64
+    Width = 54
+    Caption = 'lblAltura'
+    Font.Height = -13
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end
